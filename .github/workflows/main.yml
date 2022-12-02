@@ -19,6 +19,7 @@ jobs:
         pip install requests
         pip install xlsxwriter
         pip install numpy
+        pip install pyGitHub
     - name: Run Script
       env : 
         API_KEY: ${{ secrets.API_KEY }}
