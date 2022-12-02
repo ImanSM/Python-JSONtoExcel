@@ -1,7 +1,11 @@
 from github import Github
-from apikey import API_KEY
+# from apikey import API_KEY
 import numpy as np
+import os 
 import xlsxwriter
+
+
+API_KEY = os.environ["API_KEY"]
 
 # Create a new Github object using your API token
 gh = Github(API_KEY)
