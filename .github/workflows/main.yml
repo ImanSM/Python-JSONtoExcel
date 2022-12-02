@@ -20,7 +20,7 @@ jobs:
         pip install xlsxwriter
     - name: Run tests
       run: |
-        python APIresponseToExcel.py
+        python githubtags.py
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.1
       with:
